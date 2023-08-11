@@ -1,0 +1,12 @@
+type Mutation {
+  saveUserName(input: SaveUserNameMutationInput!): SaveUserNameResponse!
+}
+
+input SaveUserNameMutationInput {
+  Name: String!
+}
+
+type SaveUserNameResponse {
+  success: Boolean!
+  message: String
+}

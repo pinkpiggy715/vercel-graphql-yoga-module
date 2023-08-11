@@ -1,0 +1,5 @@
+client/src/graphql/**
+server/src/**/graphql.ts
+server/src//**/module-types.ts
+
+**/tsconfig.json
